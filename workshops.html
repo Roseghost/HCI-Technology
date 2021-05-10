@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta tag="interactive, VR, AR, Arduino, Interactive design, CMD, UX, UI">
+    <meta description="Website with Interactive design Portfolio for a certain course">
+    <title>HCI Technology Rose</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <container class=navigation-container>
+                <li><a href="index.html">Home</a></li>
+                <li ><a href="topics.html">Topics</a></li>
+                <li><a href="workshops.html"class="active" >Workshops</a></li>
+                <li><a href="index.html">Guest Lectures</a></li>
+                <li><a href="index.html">Labweeks</a></li>
+            </container>
+        </nav>
+    </header>
+    <main>
+<!-- Introduction-->
+        <h2>Unreal Engine</h2>
+        <div class="flex-container">
+            <div class="left-column">
+                <h3>Follow the tutorial and make a banana turn!</h3>
+                <p> The tutorial explains the basics of Unreal Engine. It starts about how to navigate the software and what every window means. 
+                    Although the windows feel overwelming in the beginning, later in the process you tend to ignore the screens you don't actively use that moment. 
+                </p>
+                <img src="media/assignments/UENavigation.jpg"alt="Unreal Engine Navigation"/>
+                <p> After this critic step of getting to know the software we moved on to adding the model and texture step by step.
+                    Creating a texture model and adding a picture that fits the object causes it to look realistic. Although it renders perfect, it does make me wonder how difficult it must have been to make this texture.
+                </p>
+                <img src="media/assignments/Overview.jpg"alt="Model overview"/>
+                <p> Once the model was finally done you learn about how nodes and their connection work. To make the model turn we only need 2 steps, the Event Tick which indicates the start and the Local Rotation.
+                    Local Rotation asks you what value you want to turn and by giving Z the value of 1 it spins around on it's Z axe. 
+                </p>
+                <h3>End result</h3>
+                <img src="media/assignments/TurnBanana.gif"alt="Banana turning on a cylinder"/>
+            </div>
+            <div class="right-column">
+                <h3>Play around with Unreal Engine</h3>
+                <p>I started of by looking for what the progam itself had to offer.
+                    After that I picked the staircase and searched online for great shapes to add.
+                    I decided to use crystals and have a big crystal float and turn around in the middle of the stairs. 
+                    Due to the difference in sized I searched for 3 different sizes and details of crystal texture to add to the models.</p>
+                    <img src="media/assignments/Crystal3.png"alt="Multiple textures"/>
+                <p> Adding these pictures which would form a great pattern to texture models </p>
+                <img src="media/assignments/Crystal.png"alt="Adding texture"/>
+                <p> To get the crystal in the middle turning I used the same blueprint as in the tutorial but slowed it down to 0.5 Z to make it feel more natural.</p>
+                <img src="media/assignments/Crystal2.png"alt="Crystal Blueprint"/>
+                <h3>End result</h3>
+                <img src="media/assignments/Crystal UE.gif"alt="Stairs with crystals and big floating crystal in the middle."/>
+            </div>
+      </div>
+    </main>
+</body>
+</html>
