@@ -12,14 +12,16 @@ h2{
     font-size: 60px;
     font-weight: normal;
     text-align: center;
+    width: 100%;
 }
 
 h3{
     font-size: 30px;
 }
 
-h2, p, h3{
+h2, p, h3, q{
     color:whitesmoke;
+    width: 100%;
 }
 
 nav a {
@@ -46,6 +48,7 @@ main{
 .flex-container{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .left-column, .right-column{
