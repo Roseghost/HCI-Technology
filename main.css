@@ -19,7 +19,7 @@ h3{
     font-size: 30px;
 }
 
-h2, p, h3, q{
+h1, h2, p, h3, q{
     color:whitesmoke;
     width: 100%;
 }
@@ -58,4 +58,8 @@ main{
 img{
     width: 100%;
     margin-bottom: 1%;
+}
+
+.outline{
+    margin: 2%;
 }
