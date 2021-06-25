@@ -44,6 +44,14 @@ figure{
     margin:0;
 }
 
+img{
+    object-fit: cover;
+}
+
+video{
+    width: 100%;
+}
+
 .navigation-container {
     display: flex;
     justify-content: space-between;
