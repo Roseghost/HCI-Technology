@@ -40,6 +40,9 @@ nav a {
     color: #EAEAEA;
 }
 
+figure{
+    margin:0;
+}
 
 .navigation-container {
     display: flex;
